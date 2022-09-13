@@ -1,0 +1,58 @@
+#sobre{
+    background-image: url(../img/backgrounds/Mancha\ Foto.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    margin-bottom: 10rem;
+    padding: 444px 1rem 0;
+}
+
+.nome{
+    color: var(--laranja);
+    font-family: var(--nome);
+    font-size: 27px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+@media (min-width:426px){
+    #sobre{
+        background-image: url(../img/backgrounds/Mancha\ Foto.png);
+        background-size: 314px;
+        padding: 444px 5vw 0;
+    }
+    
+    .nome{
+        font-size: 35px;
+    }
+}
+
+@media (min-width:769px){
+    #sobre{
+        background-image: url(../img/backgrounds/Mancha\ Foto.png);
+        background-size: 542px;
+        padding: 792px 10vw 0;
+    }
+    
+    .nome{
+        font-size: 57px;
+    }
+}
+
+@media (min-width:1025px){
+    #sobre{
+        background-image: url(../img/backgrounds/Mancha\ Foto.png);
+        background-size: 570px;
+        padding: 800px 10vw 0;
+    }
+    
+    .nome{
+        font-size: 75px;
+    }
+}
+
+@media (min-width:1441px){
+    .nome{
+        font-size: 106px;
+    }
+}

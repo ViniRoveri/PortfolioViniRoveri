@@ -1,0 +1,66 @@
+.tag1, .tag2{
+    font-family: FonteTag;
+    font-size: 16px;
+    position: absolute;
+    z-index: 2;
+}
+
+.tag1{
+    color: var(--laranja-claro);
+    left: 8px;
+    top: 346px;
+}
+
+.tag2{
+    bottom: 8px;
+    color: var(--laranja);
+    right: 8px;
+}
+
+.tag1::before{
+    content: '<VR>';
+}
+
+.tag2::before{
+    content: '</VR>';
+}
+
+@media (min-width:426px){
+    .tag1, .tag2{
+        font-size: 21px;
+    }
+    
+    .tag1{
+        top: 358px;
+    }
+}
+
+@media (min-width:769px){
+    .tag1, .tag2{
+        font-size: 26px;
+    }
+    
+    .tag1{
+        top: 632px;
+    }
+}
+
+@media (min-width:1025px){
+    .tag1, .tag2{
+        font-size: 31px;
+    }
+    
+    .tag1{
+        top: 658px;
+    }
+}
+
+@media (min-width:1441px){
+    .tag1, .tag2{
+        font-size: 31px;
+    }
+    
+    .tag1{
+        top: 658px;
+    }
+}

@@ -1,0 +1,136 @@
+#links{
+    background: url(../img/backgrounds/Mancha\ Dir\ 3.png) 100% -156px, url(../img/backgrounds/Mancha\ Esq\ 3.png) -16px 228px;
+    background-repeat: no-repeat;
+    background-size: 322px, 400px;
+    border-bottom: 5rem solid transparent;
+    border-top: 5rem solid transparent;
+    display: flex;
+    flex-direction: column;
+    height: 412px;
+    justify-content: center;
+}
+
+.lista-link{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.links-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lista-item{
+    margin: 0 .5rem 1rem;
+    transition: all 0.4s;
+    width: 80px;
+}
+
+.lista-item:hover{
+    transform: scale(1.02);
+}
+
+.link-imagem{
+    margin-bottom: .5rem;
+    width: 28px;
+}
+
+.link-imagem-certificado{
+    margin-bottom: .5rem;
+    width: 31px;
+}
+
+p.link-texto{
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+@media (min-width:426px){
+    #links{
+        background: url(../img/backgrounds/Mancha\ Dir\ 3.png) 100% -156px, url(../img/backgrounds/Mancha\ Esq\ 3.png) 0 228px;
+        background-size: 322px, 400px;
+        background-repeat: no-repeat;
+    }
+
+    .lista-item{
+        width: 88px;
+    }
+
+    .link-imagem{
+        width: 34px;
+    }
+    
+    .link-imagem-certificado{
+        width: 37px;
+    }
+    
+    p.link-texto{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:769px){
+    #links{
+        background: url(../img/backgrounds/Mancha\ Dir\ 3.png) 100% -172px, url(../img/backgrounds/Mancha\ Esq\ 3.png) 0 134px;
+        background-size: 390px, 458px;
+        background-repeat: no-repeat;
+    }
+
+    .link-imagem{
+        width: 40px;
+    }
+    
+    .link-imagem-certificado{
+        width: 43px;
+    }
+    
+    p.link-texto{
+        font-size: 22px;
+    }
+}
+
+@media (min-width:1025px){
+    #links{
+        background: url(../img/backgrounds/Mancha\ Dir\ 3.png) 100% -172px, url(../img/backgrounds/Mancha\ Esq\ 3.png) 0 106px;
+        background-size: 390px, 525px;
+        background-repeat: no-repeat;
+    }
+
+    .link-imagem{
+        margin-bottom: 1rem;
+        width: 46px;
+    }
+    
+    .link-imagem-certificado{
+        margin-bottom: 1rem;
+        width: 49px;
+    }
+    
+    p.link-texto{
+        font-size: 24px;
+    }
+}
+
+@media (min-width:1441px){
+    #links{
+        background: url(../img/backgrounds/Mancha\ Dir\ 3.png) 100% -170px, url(../img/backgrounds/Mancha\ Esq\ 3.png) 0 64px;
+        background-size: 390px, 530px;
+        background-repeat: no-repeat;
+    }
+
+    .link-imagem{
+        width: 55px;
+    }
+    
+    .link-imagem-certificado{
+        width: 58px;
+    }
+    
+    p.link-texto{
+        font-size: 26px;
+    }
+}

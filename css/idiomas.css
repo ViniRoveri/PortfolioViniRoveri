@@ -1,0 +1,198 @@
+#idiomas{
+    background-image: url(../img/backgrounds/Mancha\ Esq\ 2.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    border-bottom: 5rem solid transparent;
+    border-top: 5rem solid transparent;
+    height: 412px;
+    padding: 0 1rem;
+}
+
+.idiomas-linha{
+    align-items: center;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+p.idiomas-texto1,p.idiomas-texto2,p.idiomas-texto3{
+    display: inline-block;
+    margin: 0 0 0 1rem;
+}
+
+.idiomas-texto1{
+    background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+    background-position: -80px -61px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.idiomas-texto2{
+    background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+    background-position: -80px -103px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.idiomas-texto3{
+    background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+    background-position: -80px -145px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.bandeira1,.bandeira2,.bandeira3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 24px;
+    width: 48px;
+}
+
+.bandeira1{
+    background-image: url(../img/bandeiras/BRA.png);
+}
+
+.bandeira2{
+    background-image: url(../img/bandeiras/USA.png);
+}
+
+.bandeira3{
+    background-image: url(../img/bandeiras/GER.png);
+}
+
+@media (min-width:426px){
+    #idiomas{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2.png);
+        background-position: 0px -91px;
+        background-size: 444px;
+        padding: 0 5vw;
+    }
+    
+    p.idiomas-texto1,p.idiomas-texto2,p.idiomas-texto3{
+        margin: 0 0 0 1rem;
+    }
+    
+    .idiomas-texto1{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-5vw - 74px) -162px;
+        background-size: 444px;
+    }
+    
+    .idiomas-texto2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-5vw - 74px) -211px;
+        background-size: 444px;
+    }
+    
+    .idiomas-texto3{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-5vw - 74px) -260px;
+        background-size: 444px;
+    }
+    
+    .bandeira1,.bandeira2,.bandeira3{
+        height: 29px;
+        width: 58px;
+    }
+}
+
+@media (min-width:769px){
+    #idiomas{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2.png);
+        background-position: 0px -80px;
+        background-size: 444px;
+        padding: 0 10vw;
+    }
+    
+    p.idiomas-texto1,p.idiomas-texto2,p.idiomas-texto3{
+        margin: 0 0 0 1.5rem;
+    }
+    
+    .idiomas-texto1{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-10vw - 114px) -159px;
+        background-size: 444px;
+    }
+    
+    .idiomas-texto2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-10vw - 114px) -220px;
+        background-size: 444px;
+    }
+    
+    .idiomas-texto3{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-10vw - 114px) -281px;
+        background-size: 444px;
+    }
+    
+    .bandeira1,.bandeira2,.bandeira3{
+        height: 45px;
+        width: 90px;
+    }
+}
+
+@media (min-width:1025px){
+    #idiomas{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2.png);
+        background-position: 0px -80px;
+        padding: 0 15vw;
+    }
+    
+    p.idiomas-texto1,p.idiomas-texto2,p.idiomas-texto3{
+        margin: 0 0 0 2rem;
+    }
+    
+    .idiomas-texto1{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-10vw - 124px) -159px;
+    }
+    
+    .idiomas-texto2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-10vw - 124px) -220px;
+    }
+    
+    .idiomas-texto3{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-10vw - 124px) -281px;
+    }
+    
+    .bandeira1,.bandeira2,.bandeira3{
+        height: 50px;
+        width: 100px;
+    }
+}
+
+@media (min-width:1441px){
+    #idiomas{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2.png);
+        padding: 0 20vw;
+    }
+    
+    p.idiomas-texto1,p.idiomas-texto2,p.idiomas-texto3{
+        margin: 0 0 0 2.5rem;
+    }
+    
+    .idiomas-texto1{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-15vw - 144px) -159px;
+    }
+    
+    .idiomas-texto2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-15vw - 144px) -220px;
+    }
+    
+    .idiomas-texto3{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
+        background-position: calc(-15vw - 144px) -281px;
+    }
+    
+    .bandeira1,.bandeira2,.bandeira3{
+        height: 60px;
+        width: 120px;
+    }
+}

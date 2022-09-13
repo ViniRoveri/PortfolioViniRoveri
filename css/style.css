@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url(tags.css);
+@import url(header-footer.css);
+@import url(sobre.css);
+@import url(projetos.css);
+@import url(educacao.css);
+@import url(idiomas.css);
+@import url(links.css);
+
+@font-face{
+    font-family: FonteTexto;
+    src: url(../fonts/Louis\ George\ Cafe.ttf)
+}
+@font-face{
+    font-family: FonteTexto;
+    src: url(../fonts/Louis\ George\ Cafe\ Bold.ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: FonteTag;
+    src: url(../fonts/hacka___.ttf);
+}
+
+:root{
+    --laranja-claro: #fff5eb;
+    --laranja: #ff9316;
+    --laranja-escuro: #140c02;
+    --nome: 'Allerta Stencil', sans-serif;
+    --titulo: 'Inter', sans-serif;
+    --texto: FonteTexto, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    line-height: 1.07;
+}
+
+main{
+    background-image: url(../img/backgrounds/Textura\ Background.png);
+    position: relative;
+}
+
+.ativo{
+    background-color: var(--laranja-claro);
+    color: var(--laranja);
+}
+
+.destaque{
+    font-weight: bold;
+}
+
+.em-breve{
+    display: none;
+}
+
+.titulo{
+    align-self: flex-end;
+    color: var(--laranja);
+    font-family: var(--titulo);
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: right;
+}
+
+.texto{
+    background-color: var(--laranja-claro);
+    font-family: var(--texto);
+    font-size: 24px;
+    margin-bottom: 1rem;
+    text-align: left;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#projetos1, #projetos2, #educacao, #links{
+    padding: 0 1rem;
+}
+
+@media (min-width:426px){
+    .titulo{
+        font-size: 36px;
+    }
+    
+    .texto{
+        font-size: 31px;
+    }
+
+    #projetos1, #projetos2, #educacao, #links{
+        padding: 0 5vw;
+    }
+}
+
+@media (min-width:769px){
+    .titulo{
+        font-size: 44px;
+    }
+    
+    .texto{
+        font-size: 40px;
+    }
+
+    #projetos1, #projetos2, #educacao, #links{
+        padding: 0 10vw;
+    }
+}
+
+@media (min-width:1025px){
+    .titulo{
+        font-size: 51px;
+    }
+    
+    .texto{
+        font-size: 49px;
+    }
+}
+
+@media (min-width:1441px){
+    .titulo{
+        font-size: 60px;
+    }
+    
+    .texto{
+        font-size: 58px;
+    }
+
+    #projetos1, #projetos2, #educacao, #links{
+        padding: 0 15vw;
+    }
+}

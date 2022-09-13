@@ -1,0 +1,63 @@
+#educacao{
+    background-image: url(../img/backgrounds/Mancha\ Dir\ 2.png);
+    background-position: 100% 0px;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 825px;
+}
+
+.educacao-texto{
+    background-image: url(../img/backgrounds/Mancha\ Dir\ 2\ Escura.png);
+    background-position: calc(100% + 16px) -61px;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+@media (min-width:426px){
+    #educacao{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 2.png);
+        background-position: 100% -14px;
+        background-size: 555px;
+    }
+    
+    .educacao-texto{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 2\ Escura.png);
+        background-position: calc(100% + 5vw) -85px;
+        background-size: 555px;
+    }
+}
+
+@media (min-width:769px){
+    #educacao{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 2.png);
+        background-position: 100% -20px;
+        background-size: 620px;
+    }
+    
+    .educacao-texto{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 2\ Escura.png);
+        background-position: calc(100% + 10vw) -99px;
+        background-size: 620px;
+    }
+}
+
+@media (min-width:1025px){
+    #educacao{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 2.png);
+        background-position: 100% -20px;
+        background-size: 640px;
+    }
+    
+    .educacao-texto{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 2\ Escura.png);
+        background-position: calc(100% + 10vw) -106px;
+        background-size: 640px;
+    }
+}
+
+@media (min-width:1441px){
+    .educacao-texto{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 2\ Escura.png);
+        background-position: calc(100% + 15vw) -116px;
+    }
+}

@@ -1,0 +1,255 @@
+#projetos1{
+    background-image: url(../img/backgrounds/Mancha\ Dir\ 1.png);
+    background-position: 100% 30px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    border-bottom: 8rem solid transparent;
+}
+
+#projetos2{
+    background-image: url(../img/backgrounds/Mancha\ Esq\ 1.png);
+    background-position: 0 90px;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    border-bottom: 10rem solid transparent;
+}
+
+.projetos-texto1{
+    background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
+    background-position: calc(100% + 1rem) -76px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.projetos-texto2{
+    background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
+    background-position: -1rem 45px;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.projeto-nome{
+    color: var(--laranja-claro);
+    font-family: var(--texto);
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+.projeto-links{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.projeto-link{
+    align-items: center;
+    /*border-bottom: 1px solid var(--laranja);*/
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .7rem;
+    transition: all 0.4s;
+}
+
+.projeto-link:hover{
+    transform: scale(1.02);
+}
+
+.projeto-capa{
+    border: 2px solid var(--laranja);
+    margin-bottom: .7rem;
+    width: 292px;
+}
+
+.projeto-ir{
+    color: var(--laranja-claro);
+    font-family: var(--texto);
+    font-size: 24px;
+    margin-bottom: 1rem;
+    margin-bottom: .7rem;
+    text-decoration: underline;
+}
+
+.projeto-como{
+    color: var(--laranja-claro);
+    font-family: var(--texto);
+    font-size: 24px;
+    transition: all 0.4s;
+}
+
+.projeto-como:hover{
+    transform: scale(1.02);
+}
+
+@media (min-width:426px){
+    #projetos1{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 1.png);
+        background-position: 100% 0px;
+        background-size: 555px;
+    }
+    
+    #projetos2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 1.png);
+        background-position: 0 64px;
+        background-size: 555px;
+    }
+    
+    .projetos-texto1{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
+        background-position: calc(100% + 5vw) -124px;
+        background-size: 555px;
+    }
+    
+    .projetos-texto2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
+        background-position: -5vw 9px;
+        background-size: 555px;
+    }
+    
+    .projeto-nome{
+        font-size: 36px;
+    }
+    
+    .projeto-capa{
+        width: 387px;
+    }
+    
+    .projeto-ir{
+        font-size: 31px;
+    }
+    
+    .projeto-como{
+        font-size: 31px;
+    }
+}
+
+@media (min-width:769px){
+    #projetos1{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 1.png);
+        background-position: 100% -121px;
+        background-size: 818px;
+    }
+    
+    #projetos2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 1.png);
+        background-position: 0 -100px;
+        background-size: 818px;
+    }
+    
+    .projetos-texto1{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
+        background-position: calc(100% + 10vw) -265px;
+        background-size: 818px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .projetos-texto2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
+        background-position: -10vw -163px;
+        background-size: 818px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .projeto-nome{
+        font-size: 44px;
+    }
+    
+    .projeto-capa{
+        width: 623px;
+    }
+    
+    .projeto-ir{
+        font-size: 40px;
+    }
+    
+    .projeto-como{
+        font-size: 40px;
+    }
+}
+
+@media (min-width:1025px){
+    #projetos1{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 1.png);
+        background-position: 100% -190px;
+        background-size: 1027px;
+    }
+    
+    #projetos2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 1.png);
+        background-position: 0 -116px;
+        background-size: 1027px;
+    }
+    
+    .projetos-texto1{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
+        background-position: calc(100% + 10vw) -354px;
+        background-size: 1027px;
+        margin-bottom: 2rem;
+    }
+    
+    .projetos-texto2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
+        background-position: -10vw -189px;
+        background-size: 1027px;
+        margin-bottom: 2rem;
+    }
+    
+    .projeto-nome{
+        font-size: 53px;
+    }
+    
+    .projeto-capa{
+        width: 70%;
+    }
+    
+    .projeto-ir{
+        font-size: 49px;
+    }
+    
+    .projeto-como{
+        font-size: 49px;
+    }
+}
+
+@media (min-width:1441px){
+    #projetos1{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 1.png);
+        background-position: 100% -222px;
+        background-size: 1290px;
+    }
+    
+    #projetos2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 1.png);
+        background-position: 0 -194px;
+        background-size: 1290px;
+    }
+    
+    .projetos-texto1{
+        background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
+        background-position: calc(100% + 15vw) -400px;
+        background-size: 1290px;
+        margin-bottom: 2.5rem;
+    }
+    
+    .projetos-texto2{
+        background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
+        background-position: -15vw -276px;
+        background-size: 1290px;
+        margin-bottom: 2.5rem;
+    }
+    
+    .projeto-nome{
+        font-size: 62px;
+    }
+    
+    .projeto-ir{
+        font-size: 58px;
+    }
+    
+    .projeto-como{
+        font-size: 58px;
+    }
+}
