@@ -174,31 +174,31 @@
     #projetos1{
         background-image: url(../img/backgrounds/Mancha\ Dir\ 1.png);
         background-position: 100% -190px;
-        background-size: 1027px;
+        background-size: 869px;
     }
     
     #projetos2{
         background-image: url(../img/backgrounds/Mancha\ Esq\ 1.png);
         background-position: 0 -116px;
-        background-size: 1027px;
+        background-size: 844px;
     }
     
     .projetos-texto1{
         background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
-        background-position: calc(100% + 10vw) -354px;
-        background-size: 1027px;
+        background-position: calc(100% + 10vw) -334px;
+        background-size: 869px;
         margin-bottom: 2rem;
     }
     
     .projetos-texto2{
         background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
-        background-position: -10vw -189px;
-        background-size: 1027px;
+        background-position: -10vw -179px;
+        background-size: 844px;
         margin-bottom: 2rem;
     }
     
     .projeto-nome{
-        font-size: 53px;
+        font-size: 44px;
     }
     
     .projeto-capa{
@@ -206,50 +206,38 @@
     }
     
     .projeto-ir{
-        font-size: 49px;
+        font-size: 40px;
     }
     
     .projeto-como{
-        font-size: 49px;
+        font-size: 40px;
     }
 }
 
 @media (min-width:1441px){
-    #projetos1{
-        background-image: url(../img/backgrounds/Mancha\ Dir\ 1.png);
-        background-position: 100% -222px;
-        background-size: 1290px;
-    }
-    
-    #projetos2{
-        background-image: url(../img/backgrounds/Mancha\ Esq\ 1.png);
-        background-position: 0 -194px;
-        background-size: 1290px;
-    }
-    
     .projetos-texto1{
         background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
-        background-position: calc(100% + 15vw) -400px;
-        background-size: 1290px;
-        margin-bottom: 2.5rem;
+        background-position: calc(100% + 10vw) -351px;
+        background-size: 869px;
+        margin-bottom: 2rem;
     }
     
     .projetos-texto2{
         background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
-        background-position: -15vw -276px;
-        background-size: 1290px;
-        margin-bottom: 2.5rem;
+        background-position: -10vw -189px;
+        background-size: 844px;
+        margin-bottom: 2rem;
     }
-    
+
     .projeto-nome{
-        font-size: 62px;
+        font-size: 53px;
     }
     
     .projeto-ir{
-        font-size: 58px;
+        font-size: 49px;
     }
     
     .projeto-como{
-        font-size: 58px;
+        font-size: 49px;
     }
 }

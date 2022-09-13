@@ -168,27 +168,11 @@ p.idiomas-texto1,p.idiomas-texto2,p.idiomas-texto3{
 
 @media (min-width:1441px){
     #idiomas{
-        background-image: url(../img/backgrounds/Mancha\ Esq\ 2.png);
         padding: 0 20vw;
     }
     
     p.idiomas-texto1,p.idiomas-texto2,p.idiomas-texto3{
         margin: 0 0 0 2.5rem;
-    }
-    
-    .idiomas-texto1{
-        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
-        background-position: calc(-15vw - 144px) -159px;
-    }
-    
-    .idiomas-texto2{
-        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
-        background-position: calc(-15vw - 144px) -220px;
-    }
-    
-    .idiomas-texto3{
-        background-image: url(../img/backgrounds/Mancha\ Esq\ 2\ Escura.png);
-        background-position: calc(-15vw - 144px) -281px;
     }
     
     .bandeira1,.bandeira2,.bandeira3{

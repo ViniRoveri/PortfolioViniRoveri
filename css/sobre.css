@@ -3,7 +3,6 @@
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 300px;
-    margin-bottom: 10rem;
     padding: 444px 1rem 0;
 }
 
@@ -42,17 +41,34 @@
 @media (min-width:1025px){
     #sobre{
         background-image: url(../img/backgrounds/Mancha\ Foto.png);
-        background-size: 570px;
-        padding: 800px 10vw 0;
+        background-size: 310px;
+        height: 100vh;
+        padding: 20vh 5vw 0;
     }
     
     .nome{
-        font-size: 75px;
+        font-size: 60px;
+        margin-bottom: 10vh;
+        text-align: right;
+    }
+
+    h2.sobre-titulo{
+        margin-bottom: 2vh;
+    }
+
+    p.sobre-texto{
+        padding-left: 250px;
+        text-align: right;
     }
 }
 
 @media (min-width:1441px){
+    #sobre{
+        background-image: url(../img/backgrounds/Mancha\ Foto.png);
+        background-size: 433px;
+    }
+
     .nome{
-        font-size: 106px;
+        font-size: 69px;
     }
 }

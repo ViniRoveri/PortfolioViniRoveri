@@ -51,16 +51,12 @@
     }
     
     .tag1{
-        top: 658px;
+        top: 28px;
     }
 }
 
 @media (min-width:1441px){
     .tag1, .tag2{
         font-size: 31px;
-    }
-    
-    .tag1{
-        top: 658px;
     }
 }

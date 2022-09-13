@@ -50,7 +50,7 @@
     
     .educacao-texto{
         background-image: url(../img/backgrounds/Mancha\ Dir\ 2\ Escura.png);
-        background-position: calc(100% + 10vw) -106px;
+        background-position: calc(100% + 10vw) -99px;
         background-size: 640px;
     }
 }
@@ -58,6 +58,6 @@
 @media (min-width:1441px){
     .educacao-texto{
         background-image: url(../img/backgrounds/Mancha\ Dir\ 2\ Escura.png);
-        background-position: calc(100% + 15vw) -116px;
+        background-position: calc(100% + 10vw) -109px;
     }
 }
