@@ -70,7 +70,7 @@ footer{
     width: 100px;
 }
 
-footer .copyright{
+footer .copyright, footer .ferramentas{
     color: rgb(50%, 50%, 50%);
     font-size: 14px;
     text-align: center;
