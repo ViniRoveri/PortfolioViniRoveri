@@ -71,4 +71,8 @@
     .nome{
         font-size: 69px;
     }
+
+    p.sobre-texto{
+        padding-left: 333px;
+    }
 }
