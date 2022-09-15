@@ -1,22 +1,39 @@
 #sobre{
-    background-image: url(../img/backgrounds/Mancha\ Foto.png);
-    background-position: 0 0;
+    animation-delay: 1s, 1.6s, 2.2s;
+    animation-duration: .75s;
+    animation-fill-mode: forwards;
+    animation-name: animaManchaMobile, animaCirculoMobile, animaFotoMobile;
+    animation-timing-function: ease-out;
+    background: url(../img/backgrounds/foto/Foto.png), url(../img/backgrounds/foto/Circulo.png), url(../img/backgrounds/foto/Mancha.png);
+    background-position: -100vw 0, -100vw 0, -100vw 0;
     background-repeat: no-repeat;
-    background-size: 300px;
+    background-size: 300px, 300px, 300px;
     padding: 444px 1rem 0;
 }
 
 .nome{
+    animation-delay: 2.5s;
+    animation-fill-mode: none, forwards;
+    animation-direction: alternate, normal;
+    animation-duration: .8s, 2s;
+    animation-iteration-count: infinite, 1;
+    animation-name: animaBorda, animaNome;
+    animation-timing-function: steps(2), steps(21);
+    border-right: 2px solid transparent;
     color: var(--laranja);
     font-family: var(--nome);
     font-size: 27px;
     margin-bottom: 3rem;
-    text-align: center;
+    margin-left: auto;
+    overflow: hidden;
+    padding-right: 2px;
+    text-align: right;
+    white-space: nowrap;
+    width: 0;
 }
 
 @media (min-width:426px){
     #sobre{
-        background-image: url(../img/backgrounds/Mancha\ Foto.png);
         background-size: 314px;
         padding: 444px 5vw 0;
     }
@@ -28,7 +45,6 @@
 
 @media (min-width:769px){
     #sobre{
-        background-image: url(../img/backgrounds/Mancha\ Foto.png);
         background-size: 542px;
         padding: 792px 10vw 0;
     }
@@ -40,7 +56,7 @@
 
 @media (min-width:1025px){
     #sobre{
-        background-image: url(../img/backgrounds/Mancha\ Foto.png);
+        animation-name: animaMancha, animaCirculo, animaFoto;
         background-size: 310px;
         height: 100vh;
         padding: 20vh 5vw 0;
@@ -64,7 +80,6 @@
 
 @media (min-width:1441px){
     #sobre{
-        background-image: url(../img/backgrounds/Mancha\ Foto.png);
         background-size: 433px;
     }
 

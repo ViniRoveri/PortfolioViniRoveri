@@ -18,11 +18,13 @@
 }
 
 .tag1::before{
-    content: '<VR>';
+    animation: animaTag1 1s ease-in-out forwards 1.6s;
+    content: '';
 }
 
 .tag2::before{
-    content: '</VR>';
+    animation: animaTag2 1s ease-in-out forwards;
+    content: '';
 }
 
 @media (min-width:426px){

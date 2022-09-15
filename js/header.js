@@ -31,7 +31,7 @@ document.addEventListener('scroll', ()=>{
             itemSobre.classList.remove('ativo');
         }
 
-        if (valorScroll>=100-metadeTela && valorScroll<fimSobre) {
+        if (valorScroll>=100 && valorScroll<fimSobre) {
             itemSobre.classList.add('ativo');
             itemProjetos.classList.remove('ativo');
         }

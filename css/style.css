@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url(animacoes.css);
 @import url(tags.css);
 @import url(header-footer.css);
 @import url(sobre.css);
@@ -36,11 +37,11 @@ html {
 }
 
 body{
+    background-image: url(../img/backgrounds/Textura\ Background.png);
     line-height: 1.07;
 }
 
 main{
-    background-image: url(../img/backgrounds/Textura\ Background.png);
     position: relative;
 }
 
