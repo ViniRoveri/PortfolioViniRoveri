@@ -38,174 +38,90 @@ const idiomasTitulo = document.querySelector('.idiomas-titulo');
 const idiomasLinhas = document.querySelector('.idiomas-linhas');
 const linksTitulo = document.querySelector('.links-titulo');
 const linksLista = document.querySelector('.links-lista');
-const tag2 = document.querySelector('.tag2');
 
 document.addEventListener('scroll', ()=>{
-    var telaPequena = window.matchMedia("(max-width: 1025px)")
     var valorScroll = window.scrollY;
 
-    if(telaPequena.matches){
-        if (valorScroll<100) {
-            itemSobre.classList.remove('ativo');
-        }
+    if (valorScroll<100) {
+        itemSobre.classList.remove('ativo');
+    }
 
-        if (valorScroll>=100 && valorScroll<fimSobre) {
-            itemSobre.classList.add('ativo');
-            itemProjetos.classList.remove('ativo');
+    if (valorScroll>=100 && valorScroll<fimSobre) {
+        itemSobre.classList.add('ativo');
+        itemProjetos.classList.remove('ativo');
 
-            sobreTitulo.classList.add('animaTitulo');
-            sobreTexto.classList.add('animaTexto');
+        sobreTitulo.classList.add('animaTitulo');
+        sobreTexto.classList.add('animaTexto');
 
-            projetoNome2.classList.remove('animaProjeto')
-            projetosTexto2.classList.remove('animaTexto');
-            projetoLinks2.classList.remove('animaTexto');
-        }
+        projetoNome2.classList.remove('animaProjeto')
+        projetosTexto2.classList.remove('animaTexto');
+        projetoLinks2.classList.remove('animaTexto');
+    }
 
-        if (valorScroll>=fimSobre-metadeTela && valorScroll<fimProjetos) {
-            itemProjetos.classList.add('ativo');
-            itemSobre.classList.remove('ativo');
-            itemEducacao.classList.remove('ativo');
-        }
+    if (valorScroll>=fimSobre-metadeTela && valorScroll<fimProjetos) {
+        itemProjetos.classList.add('ativo');
+        itemSobre.classList.remove('ativo');
+        itemEducacao.classList.remove('ativo');
+    }
 
-        if (valorScroll>=fimSobre-metadeTela && valorScroll<fimProjeto1){
-            projetoTitulo.classList.add('animaTitulo');
-            projetoNome1.classList.add('animaProjeto')
-            projetosTexto1.classList.add('animaTexto');
-            projetoLinks1.classList.add('animaTexto');
+    if (valorScroll>=fimSobre-metadeTela && valorScroll<fimProjeto1){
+        projetoTitulo.classList.add('animaTitulo');
+        projetoNome1.classList.add('animaProjeto')
+        projetosTexto1.classList.add('animaTexto');
+        projetoLinks1.classList.add('animaTexto');
 
-            educacaoTitulo.classList.remove('animaTitulo');
-            educacaoTexto.classList.remove('animaTexto');
-        }
+        educacaoTitulo.classList.remove('animaTitulo');
+        educacaoTexto.classList.remove('animaTexto');
+    }
 
-        if(valorScroll>=fimProjeto1-metadeTela && valorScroll<fimProjetos){
-            projetoNome2.classList.add('animaProjeto');
-            projetosTexto2.classList.add('animaTexto');
-            projetoLinks2.classList.add('animaTexto');
-            
-            sobreTitulo.classList.remove('animaTitulo');
-            sobreTexto.classList.remove('animaTexto');
-            idiomasTitulo.classList.remove('animaTitulo');
-            idiomasLinhas.classList.remove('animaTexto');
-        }
+    if(valorScroll>=fimProjeto1-metadeTela && valorScroll<fimProjetos){
+        projetoNome2.classList.add('animaProjeto');
+        projetosTexto2.classList.add('animaTexto');
+        projetoLinks2.classList.add('animaTexto');
+        
+        sobreTitulo.classList.remove('animaTitulo');
+        sobreTexto.classList.remove('animaTexto');
+        idiomasTitulo.classList.remove('animaTitulo');
+        idiomasLinhas.classList.remove('animaTexto');
+    }
 
-        if (valorScroll>=fimProjetos-metadeTela && valorScroll<fimEducacao) {
-            itemEducacao.classList.add('ativo');
-            itemProjetos.classList.remove('ativo');
-            itemIdiomas.classList.remove('ativo');
+    if (valorScroll>=fimProjetos-metadeTela && valorScroll<fimEducacao) {
+        itemEducacao.classList.add('ativo');
+        itemProjetos.classList.remove('ativo');
+        itemIdiomas.classList.remove('ativo');
 
-            educacaoTitulo.classList.add('animaTitulo');
-            educacaoTexto.classList.add('animaTexto');
+        educacaoTitulo.classList.add('animaTitulo');
+        educacaoTexto.classList.add('animaTexto');
 
-            projetoTitulo.classList.remove('animaTitulo');
-            projetoNome1.classList.remove('animaProjeto');
-            projetosTexto1.classList.remove('animaTexto');
-            projetoLinks1.classList.remove('animaTexto');
-            linksTitulo.classList.remove('animaTitulo');
-            linksLista.classList.remove('animaTexto');
-        }
+        projetoTitulo.classList.remove('animaTitulo');
+        projetoNome1.classList.remove('animaProjeto');
+        projetosTexto1.classList.remove('animaTexto');
+        projetoLinks1.classList.remove('animaTexto');
+        linksTitulo.classList.remove('animaTitulo');
+        linksLista.classList.remove('animaTexto');
+    }
 
-        if (valorScroll>=fimEducacao-metadeTela && valorScroll<fimIdiomas) {
-            itemIdiomas.classList.add('ativo');
-            itemEducacao.classList.remove('ativo');
-            itemLinks.classList.remove('ativo');
+    if (valorScroll>=fimEducacao-metadeTela && valorScroll<fimIdiomas) {
+        itemIdiomas.classList.add('ativo');
+        itemEducacao.classList.remove('ativo');
+        itemLinks.classList.remove('ativo');
 
-            idiomasTitulo.classList.add('animaTitulo');
-            idiomasLinhas.classList.add('animaTexto');
+        idiomasTitulo.classList.add('animaTitulo');
+        idiomasLinhas.classList.add('animaTexto');
 
-            projetoNome2.classList.remove('animaProjeto');
-            projetosTexto2.classList.remove('animaTexto');
-            projetoLinks2.classList.remove('animaTexto');
-        }
+        projetoNome2.classList.remove('animaProjeto');
+        projetosTexto2.classList.remove('animaTexto');
+        projetoLinks2.classList.remove('animaTexto');
+    }
 
-        if (valorScroll>=fimIdiomas-metadeTela) {
-            itemLinks.classList.add('ativo');
-            itemIdiomas.classList.remove('ativo');
+    if (valorScroll>=fimIdiomas-metadeTela) {
+        itemLinks.classList.add('ativo');
+        itemIdiomas.classList.remove('ativo');
 
-            linksTitulo.classList.add('animaTitulo');
-            linksLista.classList.add('animaTexto');
+        linksTitulo.classList.add('animaTitulo');
+        linksLista.classList.add('animaTexto');
 
-            educacaoTitulo.classList.remove('animaTitulo');
-            educacaoTexto.classList.remove('animaTexto');
-        }
-    }else{
-        if (valorScroll<100) {
-            itemSobre.classList.remove('ativo');
-        }
-
-        if (valorScroll>=100 && valorScroll<fimSobre) {
-            itemSobre.classList.add('ativo');
-            itemProjetos.classList.remove('ativo');
-
-            projetoNome2.classList.remove('animaProjeto')
-            projetosTexto2.classList.remove('animaTexto');
-            projetoLinks2.classList.remove('animaTexto');
-        }
-
-        if (valorScroll>=fimSobre && valorScroll<fimProjetos) {
-            itemProjetos.classList.add('ativo');
-            itemSobre.classList.remove('ativo');
-            itemEducacao.classList.remove('ativo');
-        }
-
-        if (valorScroll>=fimSobre && valorScroll<fimProjeto1){
-            projetoTitulo.classList.add('animaTitulo');
-            projetoNome1.classList.add('animaProjeto')
-            projetosTexto1.classList.add('animaTexto');
-            projetoLinks1.classList.add('animaTexto');
-
-            educacaoTitulo.classList.remove('animaTitulo');
-            educacaoTexto.classList.remove('animaTexto');
-        }
-
-        if(valorScroll>=fimProjeto1 && valorScroll<fimProjetos){
-            projetoNome2.classList.add('animaProjeto');
-            projetosTexto2.classList.add('animaTexto');
-            projetoLinks2.classList.add('animaTexto');
-            
-            sobreTitulo.classList.remove('animaTitulo');
-            sobreTexto.classList.remove('animaTexto');
-            idiomasTitulo.classList.remove('animaTitulo');
-            idiomasLinhas.classList.remove('animaTexto');
-        }
-
-        if (valorScroll>=fimProjetos && valorScroll<fimEducacao) {
-            itemEducacao.classList.add('ativo');
-            itemProjetos.classList.remove('ativo');
-            itemIdiomas.classList.remove('ativo');
-
-            educacaoTitulo.classList.add('animaTitulo');
-            educacaoTexto.classList.add('animaTexto');
-
-            projetoTitulo.classList.remove('animaTitulo');
-            projetoNome1.classList.remove('animaProjeto');
-            projetosTexto1.classList.remove('animaTexto');
-            projetoLinks1.classList.remove('animaTexto');
-            linksTitulo.classList.remove('animaTitulo');
-            linksLista.classList.remove('animaTexto');
-        }
-
-        if (valorScroll>=fimEducacao && valorScroll<fimIdiomas) {
-            itemIdiomas.classList.add('ativo');
-            itemEducacao.classList.remove('ativo');
-            itemLinks.classList.remove('ativo');
-
-            idiomasTitulo.classList.add('animaTitulo');
-            idiomasLinhas.classList.add('animaTexto');
-
-            projetoNome2.classList.remove('animaProjeto');
-            projetosTexto2.classList.remove('animaTexto');
-            projetoLinks2.classList.remove('animaTexto');
-        }
-
-        if (valorScroll>=fimIdiomas) {
-            itemLinks.classList.add('ativo');
-            itemIdiomas.classList.remove('ativo');
-
-            linksTitulo.classList.add('animaTitulo');
-            linksLista.classList.add('animaTexto');
-
-            educacaoTitulo.classList.remove('animaTitulo');
-            educacaoTexto.classList.remove('animaTexto');
-        }
+        educacaoTitulo.classList.remove('animaTitulo');
+        educacaoTexto.classList.remove('animaTexto');
     }
 })
