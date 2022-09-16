@@ -6,6 +6,10 @@
     height: 825px;
 }
 
+.educacao-titulo, .educacao-texto{
+    opacity: 0;
+}
+
 .educacao-texto{
     background-image: url(../img/backgrounds/Mancha\ Dir\ 2\ Escura.png);
     background-position: calc(100% + 16px) -61px;

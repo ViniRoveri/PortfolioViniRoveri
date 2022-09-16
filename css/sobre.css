@@ -1,6 +1,6 @@
 #sobre{
     animation-delay: 1s, 1.6s, 2.2s;
-    animation-duration: .75s;
+    animation-duration: .6s;
     animation-fill-mode: forwards;
     animation-name: animaManchaMobile, animaCirculoMobile, animaFotoMobile;
     animation-timing-function: ease-out;
@@ -30,6 +30,10 @@
     text-align: right;
     white-space: nowrap;
     width: 0;
+}
+
+.sobre-titulo, .sobre-texto{
+    opacity: 0;
 }
 
 @media (min-width:426px){
@@ -69,10 +73,12 @@
     }
 
     h2.sobre-titulo{
+        animation: animaTitulo .8s ease-in-out forwards 3.5s;
         margin-bottom: 2vh;
     }
 
     p.sobre-texto{
+        animation: animaTexto .8s ease-in-out forwards 4s;
         padding-left: 250px;
         text-align: right;
     }

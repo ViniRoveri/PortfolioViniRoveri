@@ -9,6 +9,10 @@
     padding: 0 1rem;
 }
 
+.idiomas-titulo, .idiomas-linhas{
+    opacity: 0;
+}
+
 .idiomas-linha{
     align-items: center;
     display: flex;

@@ -23,7 +23,7 @@
 }
 
 .tag2::before{
-    animation: animaTag2 1s ease-in-out forwards;
+    animation: animaTag2 1s ease-in-out forwards 1s;
     content: '';
 }
 

@@ -13,6 +13,15 @@
 }
 
 @keyframes animaLogo{
+    0%{
+        opacity: 0%;
+    }
+    80%{
+        opacity: 100%;
+    }
+    90%{
+        opacity: 70%;
+    }
     100%{
         opacity: 100%;
     }
@@ -87,13 +96,13 @@
 
 @keyframes animaCirculoMobile{
     0%{
-        background-position: -100vw 0, -100vw 0, 0 0;
+        background-position: -100vw 0, -100vw -100px, 0 0;
     }
     65%{
         background-position: -100vw 0, 0 0, 0 0; 
     }
     75%{
-        background-position: -100vw 0, -4px 0, 0 0;   
+        background-position: -100vw 0, -4px -2px, 0 0;   
     }
     100%{
         background-position: -100vw 0, 0 0, 0 0; 
@@ -102,13 +111,13 @@
 
 @keyframes animaFotoMobile{
     0%{
-        background-position: -100vw 0, 0 0, 0 0; 
+        background-position: -100vw 100px, 0 0, 0 0; 
     }
     65%{
         background-position: 0 0, 0 0, 0 0;  
     }
     75%{
-        background-position: -4px 0, 0 0, 0 0;    
+        background-position: -4px 2px, 0 0, 0 0;    
     }
     100%{
         background-position: 0 0, 0 0, 0 0;  
@@ -132,13 +141,13 @@
 
 @keyframes animaCirculo{
     0%{
-        background-position: -50vw 0, -50vw 0, 0 0;
+        background-position: -50vw 0, -50vw -100px, 0 0;
     }
     65%{
         background-position: -50vw 0, 0 0, 0 0; 
     }
     75%{
-        background-position: -50vw 0, -4px 0, 0 0;   
+        background-position: -50vw 0, -4px -2px, 0 0;   
     }
     100%{
         background-position: -50vw 0, 0 0, 0 0; 
@@ -147,13 +156,13 @@
 
 @keyframes animaFoto{
     0%{
-        background-position: -50vw 0, 0 0, 0 0; 
+        background-position: -50vw 100px, 0 0, 0 0; 
     }
     65%{
         background-position: 0 0, 0 0, 0 0;  
     }
     75%{
-        background-position: -4px 0, 0 0, 0 0;    
+        background-position: -4px 2px, 0 0, 0 0;    
     }
     100%{
         background-position: 0 0, 0 0, 0 0;  
@@ -197,8 +206,7 @@
 }
 
 .animaProjeto{
-    animation: animaTitulo .8s ease-in-out forwards 1s;
-    opacity: 0; 
+    animation: animaTitulo .8s ease-in-out forwards .5s;
 }
 
 @keyframes animaTitulo{
@@ -219,8 +227,7 @@
 }
 
 .animaTitulo{
-   animation: animaTitulo .8s ease-in-out forwards 1s;
-   opacity: 0; 
+   animation: animaTitulo .8s ease-in-out forwards;
 }
 
 @keyframes animaTexto{
@@ -241,6 +248,13 @@
 }
 
 .animaTexto{
-    animation: animaTexto .8s ease-in-out forwards 1s;
-    opacity: 0;
+    animation: animaTexto .8s ease-in-out forwards .5s;
+}
+
+.projetos-texto1.animaTexto, .projetos-texto2.animaTexto{
+    animation: animaTexto .8s ease-in-out forwards 1s;    
+}
+
+.projeto-links1.animaTexto, .projeto-links2.animaTexto{
+    animation: animaTexto .8s ease-in-out forwards 1.5s;       
 }

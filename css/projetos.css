@@ -14,6 +14,10 @@
     border-bottom: 10rem solid transparent;
 }
 
+.projetos-titulo, .projeto-nome1, .projeto-nome2, .projetos-texto1, .projetos-texto2, .projeto-links1, .projeto-links2{
+    opacity: 0;
+}
+
 .projetos-texto1{
     background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
     background-position: calc(100% + 1rem) -76px;
@@ -28,7 +32,7 @@
     background-size: 400px;
 }
 
-.projeto-nome{
+.projeto-nome1, .projeto-nome2{
     color: var(--laranja-claro);
     font-family: var(--texto);
     font-size: 27px;
@@ -39,7 +43,7 @@
     text-align: center;
 }
 
-.projeto-links{
+.projeto-links1, .projeto-links2{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -47,7 +51,7 @@
 
 .projeto-link{
     align-items: center;
-    /*border-bottom: 1px solid var(--laranja);*/
+    /*border-bottom: 1px solid var(--laranja);*//*Tirar quando Em Breve sair*/
     display: flex;
     flex-direction: column;
     margin-bottom: .7rem;
@@ -109,7 +113,7 @@
         background-size: 555px;
     }
     
-    .projeto-nome{
+    .projeto-nome1, .projeto-nome2{
         font-size: 36px;
     }
     
@@ -153,7 +157,7 @@
         margin-bottom: 1.5rem;
     }
     
-    .projeto-nome{
+    .projeto-nome1, .projeto-nome2{
         font-size: 44px;
     }
     
@@ -197,7 +201,7 @@
         margin-bottom: 2rem;
     }
     
-    .projeto-nome{
+    .projeto-nome1, .projeto-nome2{
         font-size: 44px;
     }
     
@@ -229,7 +233,7 @@
         margin-bottom: 2rem;
     }
 
-    .projeto-nome{
+    .projeto-nome1, .projeto-nome2{
         font-size: 53px;
     }
     
