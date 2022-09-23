@@ -29,7 +29,7 @@
 
 @keyframes animaItemHeader{
     0%{
-        transform: translateY(100%);
+        transform: translateY(50%);
     }
     80%{
         transform: translateY(-5%);
