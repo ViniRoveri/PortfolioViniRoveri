@@ -18,14 +18,14 @@
     opacity: 0;
 }
 
-.projetos-texto1{
+p.projetos-texto1{
     background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
     background-position: calc(100% + 1rem) -76px;
     background-repeat: no-repeat;
     background-size: 350px;
 }
 
-.projetos-texto2{
+p.projetos-texto2{
     background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
     background-position: -1rem 45px;
     background-repeat: no-repeat;
@@ -51,14 +51,15 @@
 
 .projeto-link{
     align-items: center;
-    /*border-bottom: 1px solid var(--laranja);*//*Tirar quando Em Breve sair*/
+    border-bottom: 1px solid var(--laranja);
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     margin-bottom: .7rem;
     transition: all 0.4s;
 }
 
-.projeto-link:hover{
+.projeto-link:hover,.projeto-como:hover,.projeto-repo:hover{
     transform: scale(1.02);
 }
 
@@ -72,20 +73,20 @@
     color: var(--laranja-claro);
     font-family: var(--texto);
     font-size: 24px;
-    margin-bottom: 1rem;
     margin-bottom: .7rem;
     text-decoration: underline;
 }
 
-.projeto-como{
+.projeto-como,.projeto-repo{
+    border-bottom: 1px solid var(--laranja);
+    border-radius: 12px;
     color: var(--laranja-claro);
     font-family: var(--texto);
     font-size: 24px;
+    padding-bottom: .7rem;
+    text-align: center;
     transition: all 0.4s;
-}
-
-.projeto-como:hover{
-    transform: scale(1.02);
+    width: 292px;
 }
 
 @media (min-width:426px){
@@ -101,13 +102,13 @@
         background-size: 555px;
     }
     
-    .projetos-texto1{
+    p.projetos-texto1{
         background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
         background-position: calc(100% + 5vw) -124px;
         background-size: 555px;
     }
     
-    .projetos-texto2{
+    p.projetos-texto2{
         background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
         background-position: -5vw 9px;
         background-size: 555px;
@@ -125,8 +126,9 @@
         font-size: 31px;
     }
     
-    .projeto-como{
+    .projeto-como,.projeto-repo{
         font-size: 31px;
+        width: 387px;
     }
 }
 
@@ -143,14 +145,14 @@
         background-size: 818px;
     }
     
-    .projetos-texto1{
+    p.projetos-texto1{
         background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
         background-position: calc(100% + 10vw) -265px;
         background-size: 818px;
         margin-bottom: 1.5rem;
     }
     
-    .projetos-texto2{
+    p.projetos-texto2{
         background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
         background-position: -10vw -163px;
         background-size: 818px;
@@ -169,8 +171,9 @@
         font-size: 40px;
     }
     
-    .projeto-como{
+    .projeto-como,.projeto-repo{
         font-size: 40px;
+        width: 623px;
     }
 }
 
@@ -187,14 +190,14 @@
         background-size: 844px;
     }
     
-    .projetos-texto1{
+    p.projetos-texto1{
         background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
         background-position: calc(100% + 10vw) -334px;
         background-size: 869px;
         margin-bottom: 2rem;
     }
     
-    .projetos-texto2{
+    p.projetos-texto2{
         background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
         background-position: -10vw -179px;
         background-size: 844px;
@@ -213,20 +216,21 @@
         font-size: 40px;
     }
     
-    .projeto-como{
+    .projeto-como,.projeto-repo{
         font-size: 40px;
+        width: 100%;
     }
 }
 
 @media (min-width:1441px){
-    .projetos-texto1{
+    p.projetos-texto1{
         background-image: url(../img/backgrounds/Mancha\ Dir\ 1\ Escura.png);
         background-position: calc(100% + 10vw) -351px;
         background-size: 869px;
         margin-bottom: 2rem;
     }
     
-    .projetos-texto2{
+    p.projetos-texto2{
         background-image: url(../img/backgrounds/Mancha\ Esq\ 1\ Escura.png);
         background-position: -10vw -189px;
         background-size: 844px;
@@ -241,7 +245,7 @@
         font-size: 49px;
     }
     
-    .projeto-como{
+    .projeto-como,.projeto-repo{
         font-size: 49px;
     }
 }
