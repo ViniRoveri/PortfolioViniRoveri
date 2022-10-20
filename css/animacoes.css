@@ -96,13 +96,13 @@
 
 @keyframes animaCirculoMobile{
     0%{
-        background-position: -100vw 0, -100vw -100px, 0 0;
+        background-position: -100vw 0, -100vw 0, 0 0;
     }
     65%{
         background-position: -100vw 0, 0 0, 0 0; 
     }
     75%{
-        background-position: -100vw 0, -4px -2px, 0 0;   
+        background-position: -100vw 0, -4px 0, 0 0;   
     }
     100%{
         background-position: -100vw 0, 0 0, 0 0; 
@@ -111,13 +111,13 @@
 
 @keyframes animaFotoMobile{
     0%{
-        background-position: -100vw 100px, 0 0, 0 0; 
+        background-position: -100vw 0, 0 0, 0 0; 
     }
     65%{
         background-position: 0 0, 0 0, 0 0;  
     }
     75%{
-        background-position: -4px 2px, 0 0, 0 0;    
+        background-position: -4px 0, 0 0, 0 0;    
     }
     100%{
         background-position: 0 0, 0 0, 0 0;  
@@ -141,13 +141,13 @@
 
 @keyframes animaCirculo{
     0%{
-        background-position: -50vw 0, -50vw -100px, 0 0;
+        background-position: -50vw 0, -50vw 0, 0 0;
     }
     65%{
         background-position: -50vw 0, 0 0, 0 0; 
     }
     75%{
-        background-position: -50vw 0, -4px -2px, 0 0;   
+        background-position: -50vw 0, -4px 0, 0 0;   
     }
     100%{
         background-position: -50vw 0, 0 0, 0 0; 
@@ -156,13 +156,13 @@
 
 @keyframes animaFoto{
     0%{
-        background-position: -50vw 100px, 0 0, 0 0; 
+        background-position: -50vw 0, 0 0, 0 0; 
     }
     65%{
         background-position: 0 0, 0 0, 0 0;  
     }
     75%{
-        background-position: -4px 2px, 0 0, 0 0;    
+        background-position: -4px 0, 0 0, 0 0;    
     }
     100%{
         background-position: 0 0, 0 0, 0 0;  
@@ -251,10 +251,10 @@
     animation: animaTexto .8s ease-in-out forwards .5s;
 }
 
-.projetos-texto1.animaTexto, .projetos-texto2.animaTexto{
+.projetos-texto1.animaTexto, .projetos-texto2.animaTexto, .projetos-texto3.animaTexto, .projetos-texto4.animaTexto{
     animation: animaTexto .8s ease-in-out forwards 1s;    
 }
 
-.projeto-links1.animaTexto, .projeto-links2.animaTexto{
+.projeto-links1.animaTexto, .projeto-links2.animaTexto, .projeto-links3.animaTexto, .projeto-links4.animaTexto{
     animation: animaTexto .8s ease-in-out forwards 1.5s;       
 }

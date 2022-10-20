@@ -54,10 +54,6 @@ main{
     font-weight: bold;
 }
 
-.em-breve{
-    display: none;
-}
-
 .titulo{
     align-self: flex-end;
     color: var(--laranja);
@@ -78,7 +74,7 @@ main{
     -webkit-background-clip: text;
 }
 
-#projetos1, #projetos2, #educacao, #links{
+#projetos1, #projetos2, #projetos3, #projetos4, #educacao, #links{
     padding: 0 1rem;
 }
 
@@ -109,7 +105,7 @@ main{
         font-size: 31px;
     }
 
-    #projetos1, #projetos2, #educacao, #links{
+    #projetos1, #projetos2, #projetos3, #projetos4, #educacao, #links{
         padding: 0 5vw;
     }
 }
@@ -123,7 +119,7 @@ main{
         font-size: 40px;
     }
 
-    #projetos1, #projetos2, #educacao, #links{
+    #projetos1, #projetos2, #projetos3, #projetos4, #educacao, #links{
         padding: 0 10vw;
     }
 }
