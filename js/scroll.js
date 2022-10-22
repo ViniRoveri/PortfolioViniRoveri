@@ -96,6 +96,9 @@ document.addEventListener('scroll', ()=>{
         projetoNome4.classList.remove('animaProjeto')
         projetosTexto4.classList.remove('animaTexto');
         projetoLinks4.classList.remove('animaTexto');
+        // TIRAR ISSO QUANDO TIVER PROJETO 4
+        educacaoTitulo.classList.remove('animaTitulo');
+        educacaoTexto.classList.remove('animaTexto');
     }
 
     if(valorScroll>=fimProjeto2-metadeTela && valorScroll<fimProjeto3){
@@ -107,8 +110,9 @@ document.addEventListener('scroll', ()=>{
         projetoNome1.classList.remove('animaProjeto');
         projetosTexto1.classList.remove('animaTexto');
         projetoLinks1.classList.remove('animaTexto');
-        educacaoTitulo.classList.remove('animaTitulo');
-        educacaoTexto.classList.remove('animaTexto');
+        // TIRAR COMENTARIO QUANDO TIVER PROJETO 4
+        // educacaoTitulo.classList.remove('animaTitulo');
+        // educacaoTexto.classList.remove('animaTexto');
     }
 
     if(valorScroll>=fimProjeto3-metadeTela && valorScroll<fimProjeto4){
@@ -130,10 +134,11 @@ document.addEventListener('scroll', ()=>{
 
         educacaoTitulo.classList.add('animaTitulo');
         educacaoTexto.classList.add('animaTexto');
-        
-        projetoNome3.classList.remove('animaProjeto');
-        projetosTexto3.classList.remove('animaTexto');
-        projetoLinks3.classList.remove('animaTexto');
+
+        // TIRAR COMENTARIO QUANDO TIVER PROJETO 4
+        // projetoNome3.classList.remove('animaProjeto');
+        // projetosTexto3.classList.remove('animaTexto');
+        // projetoLinks3.classList.remove('animaTexto');
         linksTitulo.classList.remove('animaTitulo');
         linksLista.classList.remove('animaTexto');
     }
@@ -146,9 +151,15 @@ document.addEventListener('scroll', ()=>{
         idiomasTitulo.classList.add('animaTitulo');
         idiomasLinhas.classList.add('animaTexto');
 
-        projetoNome4.classList.remove('animaProjeto');
-        projetosTexto4.classList.remove('animaTexto');
-        projetoLinks4.classList.remove('animaTexto');
+        // TIRAR COMENTARIO QUANDO TIVER PROJETO 4
+        // projetoNome4.classList.remove('animaProjeto');
+        // projetosTexto4.classList.remove('animaTexto');
+        // projetoLinks4.classList.remove('animaTexto');
+
+        // TIRAR ISSO QUANDO TIVER PROJETO 4
+        projetoNome3.classList.remove('animaProjeto');
+        projetosTexto3.classList.remove('animaTexto');
+        projetoLinks3.classList.remove('animaTexto');
     }
 
     if (valorScroll>=fimIdiomas-metadeTela){
