@@ -65,6 +65,7 @@ main{
 }
 
 .texto{
+    background-clip: text;
     background-color: var(--laranja-claro);
     font-family: var(--texto);
     font-size: 24px;
