@@ -1,4 +1,4 @@
-![Foto da tela inicial](./img/Capa-Portfolio-Vini-Roveri.png.png)
+![Foto da tela inicial](./img/Capa-Portfolio-Vini-Roveri.png)
 
 # Portfolio Vinícius Roveri ([Link do site](https://viniroveri.github.io/PortfolioViniRoveri/))
 
